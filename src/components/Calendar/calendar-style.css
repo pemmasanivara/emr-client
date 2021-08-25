@@ -1,0 +1,54 @@
+.rbc-header {
+    padding: 0 !important;
+    border: 0 !important;
+    border-left: 1px solid #B7B7BB !important;
+    height: 70px;
+}
+.rbc-header:last-child {
+    border-right: 1px solid #B7B7BB !important;
+}
+.rbc-time-view {
+    border: 0 !important;
+}
+.rbc-time-header-gutter {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.rbc-time-gutter .rbc-timeslot-group {
+    border: 0;
+    color: #182554;
+    font-size: 12px;
+}
+
+.rbc-allday-cell {
+    display: none;
+}
+
+.rbc-time-content {
+    border: 0 !important;
+    border-right: 1px solid #B7B7BB !important;
+}
+
+.rbc-time-header-content {
+    border-left: 0 !important;
+    border-top: 1px solid #B7B7BB;
+    border-bottom: 1px solid #B7B7BB;
+}
+
+.rbc-time-header {
+    border-right: 0 !important
+}
+
+.rbc-time-content > * + * > * {
+    border-left: 1px solid #B7B7BB !important;   
+}
+
+.rbc-time-gutter {
+    min-width: 51px;
+}
+
+.rbc-event {
+    border-radius: 0 !important;
+    border-left: 3px solid #265985 !important;
+}
